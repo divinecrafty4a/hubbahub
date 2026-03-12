@@ -11,6 +11,30 @@
       a {text-decoration: none;}
       a:visited {color: #0000EE;}
       a:hover {cursor: pointer; color: #1A0DAB; text-decoration: underline;} 
+      .google-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  padding: 6px 10px;
+  border-radius: 6px;
+
+  background-color: #1f1f1f;
+  color: #ffffff;
+
+  text-decoration: none;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.google-button:hover {
+  background-color: #2a2a2a;
+}
+
+.google-icon {
+  width: 16px;
+  height: 16px;
+}
     </style>
   </head>
   
@@ -20,6 +44,21 @@
       <div>Core
          <ul>
           <li><a href="https://www.google.co.th">google</a></li>
+          
+            <a
+              href="https://www.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="google-button"
+            >
+              <span class="label">Sources</span>
+              <img
+                src="https://www.google.com/favicon.ico"
+                alt="Google"
+                class="google-icon"
+              />
+            </a>
+
           <li><a href="https://github.com/divinecrafty4a?tab=repositories">github (divinecrafty4a)</a></li>
           <li><a href="https://m365.cloud.microsoft/chat?auth=2&home=1h">copilot</a></li>
           <li><a href="https://excel.cloud.microsoft/?wdOrigin=OFFICECOM-WEB.APPBARh">excel</a></li>
