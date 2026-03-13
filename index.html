@@ -1,74 +1,62 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
     <title>hubbahub</title>
     <style>
-      body {font-size: 14px; font-family: "Segoe UI", Tahoma, sans-serif; background-color: #f6f8fa; margin: 40px;}
-      .container {display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;}
-      .container-2 {}
+      body {font-size: 14px; font-family: "Segoe UI", Tahoma, sans-serif; background-color: #f6f8fa; margin: 40px; text-align: center;}
+      .container {display: grid; grid-template-columns: repeat(1, 1fr); gap: 16px;}
+      .container-2 {display: grid; grid-template-columns: repeat(1, 1fr); gap: 16px;}
       a {text-decoration: none;}
-      a:visited {color: #0000EE;}
-      a:hover {cursor: pointer; color: #1A0DAB; text-decoration: underline;} 
-      .google-button {display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border: 1px solid #eeeeee; border-radius: 6px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 14px; font-family: system-ui, -apple-system, sans-serif;}
-      .google-button:hover {background-color: #2a2a2a;}
-      .google-icon {height: 16px; weight: 16px;}
+      a:visited {color: #0044ff;}
+      a:hover {cursor: pointer; color: #0044ff;} 
+      .button-st1 {display: inline-flex; align-items: center; gap: 6px; margin: 2px; padding: 5px 12px; border: 1px solid #dedede; border-radius: 6px; background-color: #ffffff; color: #000000; text-decoration: none; font-size: 14px; font-family: system-ui, -apple-system, sans-serif;}
+      .button-st1:hover {background-color: #0044ff; border:1px solid #0044ff; color: #0044ff}
+      .button-st1-icon {height: 14px; width: 14px; }
     </style>
   </head>
   
   <body>
     <h1>Hello from Github</h1>
     <div class="container">
-      <div>Core
-         <ul>
-          <li><a href="https://www.google.co.th">google</a></li>
-           
-          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" class="google-button">
-          <img src="https://www.google.com/favicon.ico" alt="Google" class="google-icon"/>
-          <span class="label">Google</span>
-          </a>
-
-          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" class="google-button">
-          <img src="https://www.google.com/favicon.ico" alt="Google" class="google-icon"/>
-          <span class="label">คู่มือขายผลิตภัณฑ์และบริการ_sales_kit</span>
-          </a>
-
-          <li><a href="https://github.com/divinecrafty4a?tab=repositories">github (divinecrafty4a)</a></li>
-          <li><a href="https://m365.cloud.microsoft/chat?auth=2&home=1h">copilot</a></li>
-          <li><a href="https://excel.cloud.microsoft/?wdOrigin=OFFICECOM-WEB.APPBARh">excel</a></li>
-          <li><a href="https://outlook.office.com/mail/">outlook</a></li>
-          <li><a href="https://datahub-b8f5.powerappsportals.com/">269.samutprakan</a></li>
-        </ul>
+      <div><div>Core</div>
+        
+          <a href="https://www.google.com" class="button-st1"><img src="/assets/google.png" class="button-st1-icon">Google</a>
+          <a href="https://github.com/divinecrafty4a?tab=repositories" class="button-st1"><img src="/assets/github.png" class="button-st1-icon">Github</a>
+          <a href="https://m365.cloud.microsoft/chat?auth=2&home=1h" class="button-st1">Copilot</a>
+          <a href="https://excel.cloud.microsoft/?wdOrigin=OFFICECOM-WEB.APPBARh" class="button-st1">Excel</a>
+          <a href="https://outlook.office.com/mail/" class="button-st1">outlook</a>
+          <a href="https://datahub-b8f5.powerappsportals.com/" class="button-st1">269.samutprakan</a>
       </div>
       <div>Support
-          <a href="https://www.google.com" class="google-button">
-          <img src="/assets/#EB4C4C.jpg" alt="Google" class="google-icon"/>
-          <span class="label">#EB4C4C</span>
-          </a>
+        <ul>
+            <a class="button-st1"><img src="/assets/EB4C4C.jpg" class="button-st1-icon"/>#EB4C4C</a>
+            <a class="button-st1"><img src="/assets/FF7070.jpg" class="button-st1-icon"/>#FF7070</a>
+            <a class="button-st1"><img src="/assets/FFA6A6.jpg" class="button-st1-icon"/>#FFA6A6</a>
+            <a class="button-st1"><img src="/assets/FFEDC7.jpg" class="button-st1-icon"/>#FFEDC7</a>
+        </ul>
       </div>
       <div>Baac
         <ul>
-          <li><a href="https://baacnet.it.baac.or.th/">ทางด่วนข้อมูล</a></li>
-          <li><a href="https://bmis2012.it.baac.or.th/BMIS_2560/a_bmis.asp">bmis</a></li>
-          <li><a href="https://cddinfo.app.baac.or.th/main/search-watchlist">cdd</a></li>
-          <li><a href="https://ledwebsite.led.go.th/ledweb/led/web/system/WEB1I010Action.do">กรมบังคับคดี</a></li>
-          <li><a href="https://jewel.int.baac.or.th/oaEPhone/index.php/Main/officeInfo">ระบบสมุดโทรศัพท์อิเล็กทรอนิกส์</a></li>
-          <li><a href="https://saraban.app.baac.or.th/BAAC_DOC_FLOW/baac_public/index.php">ระบบสารบรรณอิเล็กทรอนิกส์</a></li>
-          <li><a href="https://saraban.app.baac.or.th/BAAC_DOC_FLOW/home.php">ระบบสืบค้นเอกสารสารรบรรณ</a></li>
-          <li><a href="https://psc.baac.tech/">คู่มือ_product_catalog</a></li>
-          <li><a href="https://sk.baac.tech/">คู่มือขายผลิตภัณฑ์และบริการ_sales_kit</a></li>
-          <li><a href="https://aberry.it.baac.or.th/web-portal-ins/">ระบบงานบันทึกใบคำขอกรมธรรม์ประกันภัย</a></li>
-          <li><a href="http://terminal.it.baac.or.th/branches/index.php">ระบบรับส่งข้อมูลสาขา_terminal</a></li>
-          <li><a href="https://appointment.it.baac.or.th/main">ระบบนัดหมายลูกค้า</a></li>
-          <li><a href="https://univer.int.baac.or.th/carreserve/index.php/Main/main">ระบบขอใช้รถยนต์ธนาคาร</a></li>
-          <li><a href="https://namthip.app.baac.or.th/dmswarehouse/index.php/Main/main">ระบบจัดการเอกสารสำคัญ</a></li>
-          <li><a href="https://iris.app.baac.or.th/sps0008/">ระบบงานข้อมูลเพื่อการบริหารสาขา</a></li>
-          <li><a href="https://loan.baac.tech/">baac_loan</a></li>
-          <li><a href="https://phoenix.app.baac.or.th/credit-analysis/approval/credit-approval">phoenix</a></li>
-          <li><a href="https://oauth-server.app.baac.or.th/login">lps</a></li>
-          <li><a href="https://bureauweb.it.baac.or.th/">ระบบปฏิบัติการข้อมูลเครดิต</a></li>
-          <li><a href="https://e2e.app.baac.or.th/signin">e2e</a></li>
+          <a href="https://baacnet.it.baac.or.th/" class="button-st1">ทางด่วนข้อมูล</a>
+          <a href="https://bmis2012.it.baac.or.th/BMIS_2560/a_bmis.asp" class="button-st1">BMIS</a>
+          <a href="https://ledwebsite.led.go.th/ledweb/led/web/system/WEB1I010Action.do" class="button-st1">CDD</a>
+          <a href="https://jewel.int.baac.or.th/oaEPhone/index.php/Main/officeInfo" class="button-st1">ระบบสมุดโทรศัพท์อิเล็กทรอนิกส์</a>
+          <a href="https://saraban.app.baac.or.th/BAAC_DOC_FLOW/baac_public/index.php" class="button-st1">ระบบสารบรรณอิเล็กทรอนิกส์</a>
+          <a href="https://saraban.app.baac.or.th/BAAC_DOC_FLOW/home.php" class="button-st1">ระบบสืบค้นเอกสารสารรบรรณ</a>
+          <a href="https://psc.baac.tech" class="button-st1">คู่มือ_product_catalog</a>
+          <a href="https://sk.baac.tech" class="button-st1">คู่มือขายผลิตภัณฑ์และบริการ_sales_kit</a>
+          <a href="https://aberry.it.baac.or.th/web-portal-ins/" class="button-st1">ระบบงานบันทึกใบคำขอกรมธรรม์ประกันภัย</a>
+          <a href="http://terminal.it.baac.or.th/branches/index.php" class="button-st1">ระบบรับส่งข้อมูลสาขา_terminal</a>
+          <a href="https://appointment.it.baac.or.th/main" class="button-st1">ระบบนัดหมายลูกค้า</a>
+          <a href="https://univer.int.baac.or.th/carreserve/index.php/Main/main" class="button-st1">ระบบขอใช้รถยนต์ธนาคาร</a>
+          <a href="https://namthip.app.baac.or.th/dmswarehouse/index.php/Main/mainm" class="button-st1">ระบบจัดการเอกสารสำคัญ</a>
+          <a href="https://iris.app.baac.or.th/sps0008" class="button-st1">ระบบงานข้อมูลเพื่อการบริหารสาขา</a>
+          <a href="https://loan.baac.tech" class="button-st1">baac_loan</a>
+          <a href="https://phoenix.app.baac.or.th/credit-analysis/approval/credit-approval" class="button-st1">phoenix</a>
+          <a href="https://oauth-server.app.baac.or.th/login" class="button-st1">lps</a>
+          <a href="https://bureauweb.it.baac.or.th/" class="button-st1">ระบบปฏิบัติการข้อมูลเครดิต</a>
+          <a href="https://e2e.app.baac.or.th/signin" class="button-st1">e2e</a>
         </ul>
       </div>
       <div>Shares
